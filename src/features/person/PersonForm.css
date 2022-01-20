@@ -1,0 +1,40 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 16px;
+}
+
+form > div {
+    display: flex;
+    flex-direction: column;
+}
+
+div > label {
+    align-self: flex-start;
+    padding-bottom: 2px;
+}
+
+div > input {
+    border-radius: 6px;
+    border: 1px solid #eaeaea;
+    height: 35px;
+}
+
+form > button {
+    height: 35px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+form > div > h1 {
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+form > div > span {
+    text-align: right;
+    font-size: 14px;
+}

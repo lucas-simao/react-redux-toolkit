@@ -1,0 +1,20 @@
+.personCard {
+    display: flex;
+    flex-direction: column;
+    gap: 10;
+    background: #ffffff;
+    border-radius: 28px;
+    padding: 24px;
+    margin: 30px 0;
+}
+
+.personCard > h3 {
+    color: black;
+    margin: 0 0 20px 0;
+}
+
+.personCard > p {
+    color: black;
+    margin: 0;
+    text-align: left;
+}
